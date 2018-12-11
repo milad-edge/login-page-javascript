@@ -15,7 +15,7 @@ function authLogin(e) {
 
         Alert('Please fill in the fields!', 'alert-danger');
 
-    } else if (lgUsername.value !== person.username && lgPassword.value !== person.password) {
+    } else if (lgUsername.value !== person.username || lgPassword.value !== person.password) {
 
         Alert('Your username or  your password is incorrect!', 'alert-danger');
 
